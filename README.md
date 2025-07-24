@@ -13,22 +13,22 @@ Arquitectura del Proyecto
 El proyecto fue diseñado siguiendo una arquitectura escalable en capas, con la siguiente estructura:
 
   Baxx-final
-├── index.js
-├── .env
-├── package.json
-├── /routes
+├─index.js
+├─ .env
+├─ package.json
+├─ /routes
 │   ├── auth.routes.js
 │   └── products.routes.js
-├── /controllers
+├─ /controllers
 │   ├── auth.controller.js
 │   └── products.controller.js
-├── /services
+├─ /services
 │   ├── auth.service.js
 │   └── products.service.js
-├── /models
+├─ /models
 │   ├── firebase.js
 │   └── products.model.js
-├── /middlewares
+├─ /middlewares
 │   └── auth.middleware.js
 
 Endpoints Implementados
